@@ -78,3 +78,25 @@ footer {
     color: white;
     font-size: 0.9rem;
 }
+/* Estilo dos botões sociais */
+.botoes-sociais {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;       /* Permite definir largura/altura */
+    text-decoration: none;       /* Tira o sublinhado feio */
+    background-color: #3498db;   /* Cor do botão (Azul) */
+    color: white;                /* Cor do texto */
+    padding: 10px 20px;          /* Espaço interno (gordurinha do botão) */
+    border-radius: 5px;          /* Bordas arredondadas */
+    margin: 0 5px;               /* Espaço entre os botões */
+    font-weight: bold;
+    transition: background 0.3s; /* Efeito suave ao passar o mouse */
+}
+
+/* Efeito quando passa o mouse por cima */
+.btn:hover {
+    background-color: #2980b9;   /* Fica um pouco mais escuro */
+    transform: scale(1.05);      /* Cresce um pouquinho */
+}
